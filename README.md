@@ -26,7 +26,7 @@ As for my machine, my wireless adapter is named `wlp3s0`. Make sure that the por
 
 ## Real execution
 
-    mitmdump -T -p 8080 -i -s "inject.py test.js" "~t 'text/html' ~s ~c 200"
+    mitmdump -T -p 8080 -s "inject.py test.js" "~t 'text/html' ~s ~c 200"
 
 `mitmdump` does what `mitmproxy` but in an automated way. `mitmproxy` allows interception but manually, hence, Testing section is for learning.
 
